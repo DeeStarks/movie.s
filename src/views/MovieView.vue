@@ -82,7 +82,7 @@ const scrollRight = (listName: string) => {
             </tr>
             <tr class="movie__rating">
               <td class="movie__label">Rating</td>
-              <td class="movie__value">{{ movie.vote_average }}</td>
+              <td class="movie__value">{{ movie.vote_average }} / 10</td>
             </tr>
             <tr class="movie__vote-count">
               <td class="movie__label">Vote Count</td>
@@ -134,7 +134,7 @@ const scrollRight = (listName: string) => {
         <div class="line-through" />
 
         <h2>Crew</h2>
-        <div class="no-results" v-if="!credits.vrew?.length">No results</div>
+        <div class="no-results" v-if="!credits.crew?.length">No results</div>
         <div class="movie__cast _crew">
           <div class="movie__cast__list">
             <div

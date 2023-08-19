@@ -108,7 +108,7 @@ const scrollRight = (listName: string) => {
             </tr>
             <tr class="movie__vote-average">
               <td class="movie__label">Vote average</td>
-              <td class="movie__value">{{ show.vote_average }}</td>
+              <td class="movie__value">{{ show.vote_average }} / 10</td>
             </tr>
             <tr class="movie__vote-count">
               <td class="movie__label">Vote count</td>
